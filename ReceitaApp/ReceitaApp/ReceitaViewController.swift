@@ -18,10 +18,10 @@ class ReceitaViewController: UIViewController {
     
     
     let receitas = [
-        Receita(nome: "Café com leite", ingredientes: ["Café", "Leite"], quantidade: [50, 100], medidas: ["ml", "ml"]),
-        Receita(nome: "Miojo", ingredientes: ["Miojo", "Água", "Tempero"], quantidade: [1, 400, 1], medidas: ["pacote", "ml", "sachê"]),
-        Receita(nome: "Nescau", ingredientes: ["Leite", "Nescau"], quantidade: [200, 2], medidas: ["ml", "colheres de sopa"]),
-        Receita(nome: "Pão de queijo", ingredientes: ["na", "é difícil", "fazer"], quantidade: [1, 1, 1], medidas: ["compra", "cantina", "de"])
+        Receita(nome: "Café com leite", ingredientes: ["Café", "Leite"], quantidade: [50, 100], medidas: ["ml", "ml"], imagem: UIImage(named: "pdq")!),
+        Receita(nome: "Miojo", ingredientes: ["Miojo", "Água", "Tempero"], quantidade: [1, 400, 1], medidas: ["pacote", "ml", "sachê"], imagem: UIImage(named: "pdq")!),
+        Receita(nome: "Nescau", ingredientes: ["Leite", "Nescau"], quantidade: [200, 2], medidas: ["ml", "colheres de sopa"], imagem: UIImage(named: "pdq")!),
+        Receita(nome: "Pão de queijo", ingredientes: ["na", "é difícil", "fazer"], quantidade: [1, 1, 1], medidas: ["compra", "cantina", "de"], imagem: UIImage(named: "pdq")!)
     ]
     
     var receitaSelecionada = -1

@@ -7,15 +7,17 @@
 //
 
 import Foundation
+import UIKit
+
 class Receita {
     
     var nome: String
     var ingredientes: [String]
     var quantidade: [Int]
     var medidas: [String]
-    var imagem: [String]
+    var imagem: UIImage
     
-    init(nome: String, ingredientes: [String], quantidade: [Int], medidas: [String], imagem: [String]) {
+    init(nome: String, ingredientes: [String], quantidade: [Int], medidas: [String], imagem: UIImage) {
         self.nome = nome
         self.ingredientes = ingredientes
         self.quantidade = quantidade
